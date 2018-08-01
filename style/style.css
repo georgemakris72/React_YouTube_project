@@ -1,3 +1,8 @@
+body {
+  background-color: wheat !important;
+}
+
+
 .search-bar {
   margin: 20px;
   text-align: center;
@@ -18,10 +23,24 @@
   border-radius: 4px;
 }
 
+/* .list-group{
+  border: 1px solid black;
+} */
+
 .list-group-item {
   cursor: pointer;
+  border: 1px solid darkgray;
+  /* width: 367px; */
 }
 
 .list-group-item:hover {
   background-color: #eee;
+}
+
+#big-video {
+  border-radius: 15px;
+}
+
+#thumbnail {
+  border-radius: 5px;
 }
